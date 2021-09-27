@@ -1,5 +1,6 @@
 import './App.css';
 import InputForm from '../src/components/input-field/input-field.js';
+import EmojiCard from './components/emoji-card/emoji-card';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       </div>
       <div className="content">
         <InputForm />
+      </div>
+      <div className="emojiCards">
+        <EmojiCard emotion="angry"></EmojiCard>
       </div>
     </div>
   );
