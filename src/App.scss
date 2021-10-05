@@ -1,0 +1,12 @@
+.heading {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+
+.emoji-cards {
+  display: flex;
+  flex-flow: row wrap; // direction, wrap
+}

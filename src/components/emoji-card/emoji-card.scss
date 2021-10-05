@@ -1,0 +1,20 @@
+.emoji {
+
+  &-container {
+    align-items: center;
+    display: flex;
+    flex: 0 0 33.33333%;
+    flex-direction: column;
+  }
+
+  &-img {
+    height: 150px;
+    width: 150px;
+  }
+
+  &-emotion {
+    // TO-DO: use variable fonts
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
