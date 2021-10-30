@@ -10,3 +10,9 @@
   display: flex;
   flex-flow: row wrap; // direction, wrap
 }
+
+* {
+  &:focus-visible {
+    outline: none;
+  }
+}

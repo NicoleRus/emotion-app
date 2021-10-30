@@ -1,10 +1,29 @@
 .emoji {
 
-  &-container {
+  &-container,
+  &-button {
     align-items: center;
     display: flex;
     flex: 0 0 33.33333%;
     flex-direction: column;
+  }
+
+  &-button {
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: .25rem;
+    margin-top: .5rem;
+    padding: 0;
+    padding-bottom: .25rem;
+    width: 80%;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      cursor: pointer;
+      border: 2px dashed lightgray;
+      height: calc(100% - 8px);
+    }
   }
 
   &-img {

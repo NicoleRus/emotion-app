@@ -21,7 +21,6 @@
   &:active,
   &:focus-visible {
     border-color: rgb(255, 204, 138);
-    outline: none;
   }
 }
 
@@ -35,8 +34,7 @@
   &:hover,
   &:focus,
   &:focus-visible {
-    background-color: rgba(189, 188, 188, .2);
-    border-color: rgb(255, 204, 138);
+    border: 2px dashed rgb(255, 204, 138);
     cursor: pointer;
   }
 }

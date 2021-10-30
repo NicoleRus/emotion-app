@@ -34,10 +34,12 @@ const EmojiCard = ({emotion}) => {
 
   return (
     <div className="emoji-container">
-      <img src={emotionImg} alt={emotion} className="emoji-img"></img>
-      <span className="emoji-emotion">
-        {emotion}
-      </span>
+      <button className="emoji-button">
+        <img src={emotionImg} alt={emotion} className="emoji-img"></img>
+        <span className="emoji-emotion">
+          {emotion}
+        </span>
+      </button>
     </div>
   );
 }
